@@ -229,19 +229,6 @@
       "description": "OpenAI's o4-mini model - optimized for shorter contexts with rapid reasoning and vision"
     },
     {
-      "model_name": "llama3.2",
-      "aliases": ["local-llama", "local", "llama3.2", "ollama-llama"],
-      "context_window": 128000,
-      "max_output_tokens": 64000,
-      "supports_extended_thinking": false,
-      "supports_json_mode": false,
-      "supports_function_calling": false,
-      "supports_images": false,
-      "max_image_size_mb": 0.0,
-      "is_custom": true,
-      "description": "Local Llama 3.2 model via custom endpoint (Ollama/vLLM) - 128K context window (text-only)"
-    },
-    {
       "model_name": "kimi-k2-0711-preview",
       "aliases": ["kimi", "k2", "kimi-k2", "k2-preview"],
       "context_window": 131072,
@@ -254,7 +241,7 @@
       "supports_temperature": true,
       "temperature_constraint": "range",
       "is_custom": true,
-      "description": "Moonshot Kimi K2 (MoE, 1 T total / 32 B active params) – top-tier coding & agent reasoning, 128 k context"
+      "description": "Moonshot Kimi K2 (MoE, 1 T total / 32 B active params) via custom endpoint – top-tier coding & agent reasoning, 128 k context"
     }
   ]
 }
