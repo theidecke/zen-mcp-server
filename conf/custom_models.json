@@ -229,7 +229,7 @@
       "description": "OpenAI's o4-mini model - optimized for shorter contexts with rapid reasoning and vision"
     },
     {
-      "model_name": "kimi-k2-0711-preview",
+      "model_name": "moonshotai/kimi-k2",
       "aliases": ["kimi", "k2", "kimi-k2", "k2-preview"],
       "context_window": 131072,
       "max_output_tokens": 32768,
@@ -240,8 +240,8 @@
       "max_image_size_mb": 0.0,
       "supports_temperature": true,
       "temperature_constraint": "range",
-      "is_custom": true,
-      "description": "Moonshot Kimi K2 (MoE, 1 T total / 32 B active params) via custom endpoint – top-tier coding & agent reasoning, 128 k context"
+      "is_custom": false,
+      "description": "Moonshot Kimi K2 (MoE, 1 T total / 32 B active params) via OpenRouter – top-tier coding & agent reasoning, 128 k context"
     }
   ]
 }
