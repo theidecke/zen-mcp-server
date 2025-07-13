@@ -251,9 +251,9 @@
       "supports_function_calling": true,
       "supports_images": false,
       "max_image_size_mb": 0.0,
-      "is_custom": true,
       "supports_temperature": true,
       "temperature_constraint": "range",
+      "is_custom": true,
       "description": "Moonshot Kimi K2 (MoE, 1 T total / 32 B active params) – top-tier coding & agent reasoning, 128 k context"
     }
   ]
